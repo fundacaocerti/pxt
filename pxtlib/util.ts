@@ -446,7 +446,7 @@ namespace ts.pxtc.Util {
                     return Promise.reject(err)
                 }
                 //if (resp.text && /application\/json/.test(resp.headers["content-type"]))
-				if (resp.text && resp.text[0] == "{") //TODO: find out why content-type is no beeing correctly set, this is a workaround to idendify if file is a valid json
+				if (resp.text && (resp.text[0] == "{") || resp.text[0] == "[") //TODO: find out why content-type is no beeing correctly set, this is a workaround to idendify if file is a valid json
 					resp.json = JSON.parse(resp.text);
                 return resp
             })
