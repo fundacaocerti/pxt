@@ -1629,6 +1629,7 @@ namespace pxt.blocks {
         msg.DELETE_BLOCK = lf("Delete Block");
         msg.DELETE_X_BLOCKS = lf("Delete %1 Blocks");
         msg.HELP = lf("Help");
+        msg.DO_SOMETHING = lf("doSomething");
 
         // inject hook to handle openings docs
         (<any>Blockly).BlockSvg.prototype.showHelp_ = function () {
@@ -2598,7 +2599,7 @@ namespace pxt.blocks {
                         }
                     });
                 };
-                promptAndCheckWithAlert('doSomething');
+                promptAndCheckWithAlert(msg.DO_SOMETHING);
             });
             xmlList.push(button as HTMLElement);
 
