@@ -2335,6 +2335,7 @@ namespace pxt.blocks {
         msg.VARIABLES_SET = variablesSetDef.block["VARIABLES_SET"];
         msg.VARIABLES_DEFAULT_NAME = varname;
         msg.VARIABLES_SET_CREATE_GET = lf("Create 'get %1'");
+        msg.PROCEDURES_CREATE_DO = lf("Create '%1'");
         installBuiltinHelpInfo(variablesSetId);
 
         // pxt variables_change
