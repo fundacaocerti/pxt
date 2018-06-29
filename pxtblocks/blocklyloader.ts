@@ -2512,7 +2512,7 @@ namespace pxt.blocks {
              */
             customContextMenu: function (options: any) {
                 let option: any = { enabled: true };
-                option.text = (Blockly as any).Msg.PROCEDURES_HIGHLIGHT_DEF;
+                option.text = lf((Blockly as any).Msg.PROCEDURES_HIGHLIGHT_DEF);
                 let name = this.getProcedureCall();
                 let workspace = this.workspace;
                 option.callback = function () {
