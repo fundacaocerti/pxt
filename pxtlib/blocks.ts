@@ -245,6 +245,9 @@ namespace pxt.blocks {
                     CONTROLS_IF_MSG_IF: Util.lf("{id:logic}if"),
                     CONTROLS_IF_MSG_THEN: Util.lf("{id:logic}then"),
                     CONTROLS_IF_MSG_ELSE: Util.lf("{id:logic}else"),
+                    CONTROLS_IF_ELSEIF_TOOLTIP: Util.lf("Add a condition to the if block."),
+                    CONTROLS_IF_ELSE_TOOLTIP: Util.lf("Add a final, catch-all condition to the if block."),
+                    CONTROLS_IF_IF_TOOLTIP: Util.lf("Add, remove, or reorder sections to reconfigure this if block."),
                     CONTROLS_IF_MSG_ELSEIF: Util.lf("{id:logic}else if")
                 }
             },

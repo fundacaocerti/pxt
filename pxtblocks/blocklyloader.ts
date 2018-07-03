@@ -2640,6 +2640,9 @@ namespace pxt.blocks {
         msg.CONTROLS_IF_MSG_THEN = controlsIfDef.block["CONTROLS_IF_MSG_THEN"];
         msg.CONTROLS_IF_MSG_ELSE = controlsIfDef.block["CONTROLS_IF_MSG_ELSE"];
         msg.CONTROLS_IF_MSG_ELSEIF = controlsIfDef.block["CONTROLS_IF_MSG_ELSEIF"];
+        msg.CONTROLS_IF_ELSEIF_TOOLTIP = controlsIfDef.block["CONTROLS_IF_ELSEIF_TOOLTIP"];
+        msg.CONTROLS_IF_ELSE_TOOLTIP = controlsIfDef.block["CONTROLS_IF_ELSE_TOOLTIP"];
+        msg.CONTROLS_IF_IF_TOOLTIP = controlsIfDef.block["CONTROLS_IF_IF_TOOLTIP"];
         msg.CONTROLS_IF_TOOLTIP_1 = controlsIfTooltips["CONTROLS_IF_TOOLTIP_1"];
         msg.CONTROLS_IF_TOOLTIP_2 = controlsIfTooltips["CONTROLS_IF_TOOLTIP_2"];
         msg.CONTROLS_IF_TOOLTIP_3 = controlsIfTooltips["CONTROLS_IF_TOOLTIP_3"];
