@@ -365,7 +365,9 @@ namespace pxt.blocks {
                 url: 'reference/text/join',
                 category: 'text',
                 block: {
-                    TEXT_JOIN_TITLE_CREATEWITH: Util.lf("join")
+                    TEXT_JOIN_TITLE_CREATEWITH: Util.lf("join"),
+                    TEXT_CREATE_JOIN_ITEM_TOOLTIP: Util.lf("Add an item to the text."),
+                    TEXT_CREATE_JOIN_TOOLTIP: Util.lf("Add, remove, or reorder sections to reconfigure this text block.")
                 }
             },
             'procedures_defnoreturn': {

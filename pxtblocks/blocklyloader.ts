@@ -2720,6 +2720,8 @@ namespace pxt.blocks {
         const textJoinId = "text_join";
         const textJoinDef = pxt.blocks.getBlockDefinition(textJoinId);
         msg.TEXT_JOIN_TITLE_CREATEWITH = textJoinDef.block["TEXT_JOIN_TITLE_CREATEWITH"];
+        msg.TEXT_CREATE_JOIN_ITEM_TOOLTIP= textJoinDef.block["TEXT_CREATE_JOIN_ITEM_TOOLTIP"];
+        msg.TEXT_CREATE_JOIN_TOOLTIP= textJoinDef.block["TEXT_CREATE_JOIN_TOOLTIP"];
         installBuiltinHelpInfo(textJoinId);
     }
 
