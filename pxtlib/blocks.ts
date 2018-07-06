@@ -261,6 +261,8 @@ namespace pxt.blocks {
                     LISTS_CREATE_EMPTY_TITLE: Util.lf("create empty array"),
                     LISTS_CREATE_WITH_INPUT_WITH: Util.lf("create array with"),
                     LISTS_CREATE_WITH_CONTAINER_TITLE_ADD: Util.lf("array"),
+                    LISTS_CREATE_WITH_ITEM_TOOLTIP: Util.lf("Add an item to the list."),
+                    LISTS_CREATE_WITH_CONTAINER_TOOLTIP: Util.lf("Add, remove, or reorder sections to reconfigure this list block."),
                     LISTS_CREATE_WITH_ITEM_TITLE: Util.lf("value")
                 }
             },

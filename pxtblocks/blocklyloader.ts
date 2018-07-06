@@ -1398,6 +1398,8 @@ namespace pxt.blocks {
         msg.LISTS_CREATE_EMPTY_TITLE = listsCreateWithDef.block["LISTS_CREATE_EMPTY_TITLE"];
         msg.LISTS_CREATE_WITH_INPUT_WITH = listsCreateWithDef.block["LISTS_CREATE_WITH_INPUT_WITH"];
         msg.LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = listsCreateWithDef.block["LISTS_CREATE_WITH_CONTAINER_TITLE_ADD"];
+        msg.LISTS_CREATE_WITH_ITEM_TOOLTIP = listsCreateWithDef.block["LISTS_CREATE_WITH_ITEM_TOOLTIP"];
+        msg.LISTS_CREATE_WITH_CONTAINER_TOOLTIP = listsCreateWithDef.block["LISTS_CREATE_WITH_CONTAINER_TOOLTIP"];
         msg.LISTS_CREATE_WITH_ITEM_TITLE = listsCreateWithDef.block["LISTS_CREATE_WITH_ITEM_TITLE"];
         installBuiltinHelpInfo(listsCreateWithId);
 
