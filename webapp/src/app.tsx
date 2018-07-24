@@ -1580,7 +1580,7 @@ ${compileService ? `<p>${lf("{0} version:", "C++ runtime")} <a href="${Util.html
     }
 
     startTutorialAsync(tutorialId: string, tutorialTitle?: string): Promise<void> {
-        let title = tutorialTitle || tutorialId.split('/').reverse()[0].replace('-', ' '); // drop any kind of sub-paths
+        let title = Util.rlf(tutorialTitle || tutorialId.split('/').reverse()[0].replace('-', ' ')); // drop any kind of sub-paths
         let result: string[] = [];
 
         sounds.initTutorial(); // pre load sounds
