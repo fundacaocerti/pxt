@@ -1521,6 +1521,13 @@ export class ProjectView
 <p>${lf("{0} version:", Util.htmlEscape(pxt.appTarget.name))} <a class="focused" href="${Util.htmlEscape(pxt.appTarget.appTheme.githubUrl)}/releases/tag/v${Util.htmlEscape(pxt.appTarget.versions.target)}" aria-label="${lf("{0} version : {1}", Util.htmlEscape(pxt.appTarget.name), Util.htmlEscape(pxt.appTarget.versions.target))}" target="_blank">${Util.htmlEscape(pxt.appTarget.versions.target)}</a></p>
 <p>${lf("{0} version:", "Microsoft MakeCode")} <a href="https://github.com/Microsoft/pxt/releases/tag/v${Util.htmlEscape(pxt.appTarget.versions.pxt)}" aria-label="${lf("{0} version: {1}", "Microsoft MakeCode", Util.htmlEscape(pxt.appTarget.versions.pxt))}" target="_blank">${Util.htmlEscape(pxt.appTarget.versions.pxt)}</a></p>
 ${compileService ? `<p>${lf("{0} version:", "C++ runtime")} <a href="${Util.htmlEscape("https://github.com/" + compileService.githubCorePackage + '/releases/tag/' + compileService.gittag)}" aria-label="${lf("{0} version: {1}", "C++ runtime", Util.htmlEscape(compileService.gittag))}" target="_blank">${Util.htmlEscape(compileService.gittag)}</a></p>` : ""}
+<br/>
+<p>${"micro:bit extension:"} <a href="https://github.com/fundacaocerti/pxt" target="_blank">pxt</a> / <a href="https://github.com/fundacaocerti/pxt-microbit" target="_blank">pxt-microbit</a></p>
+<p>${lf("{0} version:", "Weatherbit")} <a href="https://github.com/sparkfun/pxt-weather-bit/releases/tag/v0.0.10" target="_blank">0.0.10</a></p>
+<p>${lf("{0} version:", "Grove")} <a href="https://github.com/Seeed-Studio/pxt-grove/releases/tag/v0.1.0" target="_blank">0.1.0</a></p>
+<p>${lf("{0} version:", "Neopixel")} <a href="https://github.com/Microsoft/pxt-neopixel/releases/tag/v0.4.1" target="_blank">0.4.1</a></p>
+<p>${lf("{0} version:", "Sensors")} <a href="https://github.com/fundacaocerti/pxt-sensors/releases/tag/0.1" target="_blank">0.1</a></p>
+
 `
         }).done();
     }
