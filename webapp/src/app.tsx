@@ -1046,7 +1046,11 @@ export class ProjectView
                 let fn = pxt.outputName()
                 if (!resp.outfiles[fn]) {
                     pxt.tickEvent("compile.noemit")
-                    core.warningNotification(lf("Compilation failed, please check your code for errors."));
+                    if (fn == "binary.hex"){
+                        core.warningNotification(lf("Cannot download project with additional packages while offline"));
+                    } else {
+                        core.warningNotification(lf("Compilation failed, please check your code for errors."));
+                    }
                     return Promise.resolve()
                 }
                 resp.saveOnly = saveOnly
