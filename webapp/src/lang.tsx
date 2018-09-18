@@ -27,6 +27,7 @@ const allLanguages: pxt.Map<Language> = {
     "de": { englishName: "German", localizedName: "Deutsch" },
     "el": { englishName: "Greek", localizedName: "Ελληνικά" },
     "en": { englishName: "English", localizedName: "English" },
+    "es": { englishName: "Spanish", localizedName: "Español" },
     "es-ES": { englishName: "Spanish (Spain)", localizedName: "Español (España)" },
     "es-MX": { englishName: "Spanish (Mexico)", localizedName: "Español (México)" },
     "fi": { englishName: "Finnish", localizedName: "Suomi" },
